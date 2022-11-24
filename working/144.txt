@@ -1,0 +1,28 @@
+theano ya no existe
+torch
+tensorflow
+
+2009 ->
+
+· Nueva versión -> traducir a pytorch
+· supervisado
+· convertir datos en tensores
+    los datos se deben normalizar - el más común es cn mean y std (pero hay más formas de hacerlo)
+
+  pytorch
+  1. data loader (transf datos de formato db -> representacion vectorial)
+    separa datos: train, dev, test
+    train: aprender
+    dev: evaluar proceso (tomar subconjunto de train)
+    test: evaluar el resultado
+    crear el dataset <- objeto
+
+    batch -> ejemplos que la red ve por actualización de la red (ya es otro cacho de código; decir quién es el dataset y cuál es su dataloader)
+  
+  2. crear el modelo
+    crear la red que va a interpretar los datos
+    se crea el entrenamiento; es una doble iteración
+
+
+Otra cosa que podemos intentar:
+  sacar estadísticas con pandas
